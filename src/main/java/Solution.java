@@ -1,5 +1,6 @@
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 public class Solution {
     public static void main(String[] args) {
@@ -7,7 +8,19 @@ public class Solution {
         names(Person.persons()).forEach(System.out::println);
         sortedByIncomeDes().forEach(System.out::println);
         distinctGenders().forEach(System.out::println);
+        System.out.println("first three peoples");
         firstThreePeople().forEach(System.out::println);
+        System.out.println("list with the first two skipped");
+        skippedPeople().forEach(System.out::println);
+        System.out.println(isHighIncome());
+        System.out.println(isNoZeroIncome());
+        System.out.println(countPerson());
+        if(personWithHighestIncome().isPresent()){
+            Person p = personWithHighestIncome().get();
+            System.out.println("Person with high income is --- " + p);
+        }
+
+
     }
 
     //challenge 1
@@ -52,6 +65,56 @@ public class Solution {
                 .limit(3)
                 .toList();
         return top3;
+    }
+
+    static List<Person> skippedPeople(){
+        List<Person> skipped = Person.persons()
+                .stream()
+                .skip(2)
+                .toList();
+        return skipped;
+    }
+
+    static void displayNames(){
+        Person.persons()
+                .stream()
+                .peek(person -> System.out.println("Person name" + person.getName()))
+                .forEach(System.out::println);
+    }
+
+    //to check if any person's income is greater than 8000
+
+    static boolean isHighIncome(){
+      return  Person.persons()
+                .stream()
+                .anyMatch(p->p.getIncome() >8000);
+
+    }
+
+    static boolean isAllPeopleAreMale(){
+        return Person.persons()
+                .stream()
+                .allMatch(Person::isMale);
+    }
+
+    static boolean isNoZeroIncome(){
+        return Person.persons()
+                .stream()
+                .noneMatch(p->p.getIncome()==0);
+    }
+
+    //to count the number of persons
+    static long countPerson(){
+       return Person.persons()
+                .stream()
+                .filter(Person::isFemale)
+                .count();
+    }
+    //to find the person with the highest income
+    static Optional<Person> personWithHighestIncome(){
+        return Person.persons()
+                .stream()
+                .max(Comparator.comparingDouble(Person::getIncome));
     }
 
 }
