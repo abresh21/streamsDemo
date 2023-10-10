@@ -1,9 +1,11 @@
+import java.util.Comparator;
 import java.util.List;
 
 public class Solution {
     public static void main(String[] args) {
         System.out.println(malesOnly(Person.persons()));
         names(Person.persons()).forEach(System.out::println);
+        sortedByIncomeDes().forEach(System.out::println);
     }
 
     //challenge 1
@@ -22,5 +24,12 @@ public class Solution {
                 .map(Person::getName)
                 .toList();
         return names;
+    }
+
+    static List<Person> sortedByIncomeDes(){
+        List<Person> sortedList = Person.persons().stream()
+                .sorted(Comparator.comparing(Person::getIncome).reversed())
+                .toList();
+        return sortedList;
     }
 }
