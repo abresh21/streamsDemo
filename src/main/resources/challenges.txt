@@ -1,0 +1,391 @@
+Abreham
+abreham0518
+
+Ramy Ibrahim — 09/21/2023 10:19 AM
+Did you start?
+Nassim Mokrane — 09/21/2023 10:28 AM
+?
+Faraz — 09/21/2023 10:29 AM
+same link join online he said
+Ajmal Hakim — 09/21/2023 10:34 AM
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3AuAK2r5RYICpix9UYjvVumkdqUkZZqC0JSBarQsi-fJQ1%40thread.tacv2%2F1695305457674%3Fcontext%3D%7b%22Tid%22%3a%225de3d8fc-e655-40e8-aeed-233dee10926a%22%2c%22Oid%22%3a%22027275e1-6fd4-4f6f-8100-a5aa22421faf%22%7d%26anon%3Dtrue&type=meetup-join&deeplinkId=5099b9ba-154b-4083-97c2-3c0b36854cf4&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+Microsoft Teams
+Image
+Ajmal Hakim — 09/23/2023 4:15 PM
+https://www.notion.so/Inheritance-705c48ce68b242669cef389fb3d0805a?pvs=4
+Ajmal Hakim's Notion on Notion
+Inheritance
+WARM UP :
+Inheritance
+https://solstice-script-3d6.notion.site/Java-Exceptions-da4265a0cdae427f8548455dda467288?pvs=4
+Ajmal Hakim's Notion on Notion
+Java Exceptions
+Instructions
+Ajmal Hakim — 09/25/2023 11:03 AM
+https://solstice-script-3d6.notion.site/Wrapper-Classes-in-Java-fdb8d247e059453c8c1d2d4d47787f6c?pvs=4
+Ajmal Hakim's Notion on Notion
+Wrapper Classes in Java
+In Java, a wrapper class is used to encapsulate a primitive data type and provide it with the properties of an object. The eight primitive data types in Java are byte, short, int, long, float, double, char, and boolean. Wrapper classes are used to convert primitive data types into objects, which can be used in collections, data structures, and o...
+Wrapper Classes in Java
+Ajmal Hakim — 09/25/2023 2:03 PM
+https://solstice-script-3d6.notion.site/SQL-329901b86d7944a39c4246a97affe91c?pvs=4
+Ajmal Hakim's Notion on Notion
+SQL
+Database
+SQL
+Ajmal Hakim — 09/27/2023 10:57 AM
+RED,GREEN,YELLOW,WHITE,ORANGE,BLUE,MAGENTA,BLACK,SILVER
+Ajmal Hakim — 09/27/2023 12:40 PM
+books.add(new Book(" Java"," Binary",23.0));
+        books.add(new Book(" HTML"," Adam",33.39));
+        books.add(new Book(" JavaScript"," Robert",53.29));
+        books.add(new Book(" Kotlin"," Jake",23.99));
+Ajmal Hakim — 09/27/2023 3:11 PM
+https://solstice-script-3d6.notion.site/ArrayList-32ab033d9e1f4de5bda3f9f68c1daf04?pvs=4
+Ajmal Hakim's Notion on Notion
+ArrayList
+ArrayList is a dynamic array implementation in Java that is part of the Collection framework. It allows us to store and manipulate a collection of elements of any type. The size of an ArrayList can grow or shrink as we add or remove elements from it. ArrayList is a popular data structure in Java, and its functions and methods are extensively use...
+ArrayList
+Ajmal Hakim — 09/27/2023 3:30 PM
+Attachment file type: archive
+main.zip
+7.40 KB
+Ajmal Hakim — 09/27/2023 4:04 PM
+(101,'Introduction to Python', 10),
+ (102,'Data Structures and Algorithms', 12),
+ (103,'Machine Learning', 14),
+ (104,'Web Development', 16),
+ (105,'Database Systems', 18),
+ (106,'Software Engineering', 20),
+ (107,'Computer Architecture', 22),
+ (108,'Operating Systems', 24),
+ (109,'Compiler Design', 26),
+ (200,'Computer Graphics', 28);
+Ajmal Hakim — 09/28/2023 11:41 AM
+public class NotAdultException extends Exception{
+    public NotAdultException(String message) {
+        super(message);
+    }
+}
+public static void checkAge(int age) throws NotAdultException {
+        if (age<18){
+            throw new NotAdultException("Age must be greater than 18");
+        }
+    }
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3AUJtKwmtHapk9KR8n7Q30A3AY6y6_2DrIkfjUOLl2INM1%40thread.tacv2%2F1695909730550%3Fcontext%3D%7b%22Tid%22%3a%225de3d8fc-e655-40e8-aeed-233dee10926a%22%2c%22Oid%22%3a%22027275e1-6fd4-4f6f-8100-a5aa22421faf%22%7d%26anon%3Dtrue&type=meetup-join&deeplinkId=bf8b7949-2d9f-40dc-9d82-4610f4cbe88b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+Microsoft Teams
+Image
+Ajmal Hakim — 09/28/2023 3:26 PM
+"jdbc:mysql://localhost:3306/demo_db"
+Ajmal Hakim — 09/28/2023 4:01 PM
+use demo_db;
+CREATE TABLE empolyees(
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   name VARCHAR(50) NOT NULL,
+   age INT NOT NULL );
+
+   insert into empolyees(name,age) values( 'John',45);
+      insert into empolyees(name,age) values( 'Alex',33);
+         insert into empolyees(name,age) values( 'Sam',45);
+            insert into empolyees(name,age) values( 'Lisa',15);
+               insert into empolyees(name,age) values( 'Dontao',45);
+Ajmal Hakim — 09/28/2023 4:20 PM
+https://solstice-script-3d6.notion.site/JDBC-4cd0efdc295a4f078e1f0baa380e58e2?pvs=4
+Ajmal Hakim's Notion on Notion
+JDBC
+JDBC (Java Database Connectivity) is a Java API (Application Programming Interface) that provides a standard mechanism for Java applications to interact with relational databases. It allows Java developers to establish connections to databases, execute SQL (Structured Query Language) statements, retrieve and manipulate data, and manage database ...
+Monpura — 09/29/2023 11:01 AM
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.33
+Ajmal Hakim — 09/29/2023 12:05 PM
+CREATE TABLE student (
+  student_id INT NOT NULL AUTO_INCREMENT,
+    student_name VARCHAR(255) NOT NULL,
+    student_lastName VARCHAR(255) NOT NULL,
+    student_email VARCHAR(50) NOT NULL,
+  PRIMARY KEY (student_id)
+);
+CREATE TABLE instructor (
+  instructor_id INT NOT NULL AUTO_INCREMENT,
+  instructor_name VARCHAR(255) NOT NULL,
+  PRIMARY KEY (instructor_id)
+);
+REATE TABLE course (
+  course_id INT NOT NULL AUTO_INCREMENT,
+  course_name VARCHAR(255) NOT NULL,
+  instructor_id INT NOT NULL,
+  PRIMARY KEY (course_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructor(instructor_id)
+);
+CREATE TABLE student_course (
+  student_id INT NOT NULL,
+  course_id INT NOT NULL,
+  PRIMARY KEY (student_id, course_id),
+  FOREIGN KEY (student_id) REFERENCES student(student_id),
+  FOREIGN KEY (course_id) REFERENCES course(course_id)
+);
+Mohammad sarwary — 09/29/2023 12:13 PM
+CREATE TABLE course (
+  course_id INT NOT NULL AUTO_INCREMENT,
+  course_name VARCHAR(255) NOT NULL,
+  instructor_id INT NOT NULL,
+  PRIMARY KEY (course_id),
+  FOREIGN KEY (instructor_id) REFERENCES instructor(instructor_id)
+);
+Ajmal Hakim — 09/29/2023 4:39 PM
+https://solstice-script-3d6.notion.site/School-Managemnt-dbc538d3cf444567b87c5299803da174?pvs=4
+Ajmal Hakim's Notion on Notion
+School Managemnt
+use demo_db;
+
+
+CREATE TABLE student (
+student_id INT NOT NULL AUTO_INCREMENT,
+student_name VARCHAR(255) NOT NULL,
+student_lastName VARCHAR(255) NOT NULL,
+student_email VARCHAR(50) NOT NULL,
+PRIMARY KEY (student_id)
+);
+
+-- Create the instructor table
+CREATE TABLE instructor (
+instructor_id INT NOT NULL AUTO_INCREMENT...
+https://solstice-script-3d6.notion.site/Book-Store-d702ca04d193407d96fb32d2283cfa3d?pvs=4
+Ajmal Hakim's Notion on Notion
+Book Store 📚
+Book
+Ajmal Hakim — 10/03/2023 2:40 PM
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3AUJtKwmtHapk9KR8n7Q30A3AY6y6_2DrIkfjUOLl2INM1%40thread.tacv2%2F1696342821439%3Fcontext%3D%7b%22Tid%22%3a%225de3d8fc-e655-40e8-aeed-233dee10926a%22%2c%22Oid%22%3a%22027275e1-6fd4-4f6f-8100-a5aa22421faf%22%7d%26anon%3Dtrue&type=meetup-join&deeplinkId=70d7e8d6-b407-46fd-84bb-bc16a3d459be&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+Microsoft Teams
+Image
+Abdul Bari Nijrabi — 10/03/2023 2:41 PM
+Link is not connecting me to the team. I think first you need to give  me access
+Ajmal Hakim — 10/03/2023 3:57 PM
+Comparator<Product> comparator = new Comparator<Product>() {
+    @Override
+    public int compare(Product o1, Product o2) {
+        if (o1.getRate() == Product.Rate.DIAMOND) {
+            return -1;
+        } else if (o2.getRate() == Product.Rate.DIAMOND) {
+            return 1;
+        } else if (o1.getRate() == Product.Rate.BRONZE) {
+            return 1;
+        } else if (o2.getRate() == Product.Rate.BRONZE) {
+            return -1;
+        } else {
+            return o1.getRate().compareTo(o2.getRate());
+        }
+    }
+};
+Ajmal Hakim — 10/04/2023 10:14 AM
+https://teams.microsoft.com/l/meetup-join/19:UJtKwmtHapk9KR8n7Q30A3AY6y6_2DrIkfjUOLl2INM1@thread.tacv2/1696428827628?context=%7B"Tid":"5de3d8fc-e655-40e8-aeed-233dee10926a","Oid":"027275e1-6fd4-4f6f-8100-a5aa22421faf"%7D
+Microsoft Teams
+Image
+Ajmal Hakim — 10/04/2023 11:52 AM
+https://solstice-script-3d6.notion.site/Set-62fb3251efc0495e950d50470a050d8c?pvs=4
+Ajmal Hakim's Notion on Notion
+Set
+The Set interface of the Java Collections framework provides the features of the mathematical set in Java. It extends the Collection interface.
+Set
+Ajmal Hakim — 10/04/2023 12:04 PM
+https://git-scm.com/download/win
+Ajmal Hakim — 10/05/2023 10:22 AM
+https://solstice-script-3d6.notion.site/GIT-2dfd62c746b94a91999c07f0885a484b?pvs=4
+Ajmal Hakim's Notion on Notion
+GIT
+Introduction to Git
+GIT
+https://solstice-script-3d6.notion.site/Comparable-Comparator-92f68ce9bb0547f6adcd8609970ce540?pvs=4
+Ajmal Hakim's Notion on Notion
+Comparable & Comparator
+Overview
+Comparable & Comparator
+Ajmal Hakim — 10/05/2023 10:49 AM
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3AUJtKwmtHapk9KR8n7Q30A3AY6y6_2DrIkfjUOLl2INM1%40thread.tacv2%2F1696515879604%3Fcontext%3D%7b%22Tid%22%3a%225de3d8fc-e655-40e8-aeed-233dee10926a%22%2c%22Oid%22%3a%22027275e1-6fd4-4f6f-8100-a5aa22421faf%22%7d%26anon%3Dtrue&type=meetup-join&deeplinkId=9d751788-a839-40ff-9dfc-fc16893a5bb5&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+Microsoft Teams
+Image
+Ajmal Hakim — 10/05/2023 12:29 PM
+static Set<Character> nonRepeatedChars(String s){
+         s = s.toLowerCase();
+        Map<Character,Integer> map = new HashMap<>();
+        Set<Character> set = new HashSet<>();
+        for (int i = 0; i <s.length() ; i++) {
+            if(map.containsKey(s.charAt(i))){
+                map.put(s.charAt(i),map.get(s.charAt(i))+1);
+            } else {
+                map.put(s.charAt(i),1);
+            }
+        }
+      Set<Map.Entry<Character,Integer>>  hset =    map.entrySet();
+        for (Map.Entry<Character, Integer> entry : hset) {
+            if(entry.getValue()==1){
+                set.add(entry.getKey());
+            }
+        }
+return set;
+    }
+Donato Manzione — 10/05/2023 2:51 PM
+package org.example;
+
+
+ interface FunctionalInterface {
+
+    void something();
+}
+
+interface RegularInterface {
+     void printOne();
+     void printTwo();
+
+     void printThree();
+}
+public class LambdasAndClassMain {
+
+    public static void main(String[] args) {
+        FunctionalInterface objectOfFuncionalInterfaceType = new FunctionalInterface() {
+            @Override
+            public void something() {
+                System.out.println("Something");
+            }
+        };
+
+        objectOfFuncionalInterfaceType.something();
+
+        RegularInterface objectOfRegularInterfaceType = new RegularInterface() {
+            @Override
+            public void printOne() {
+                System.out.println("One");
+            }
+
+            @Override
+            public void printTwo() {
+                System.out.println("Two");
+            }
+
+            @Override
+            public void printThree() {
+                System.out.println("Three");
+            }
+        };
+        objectOfRegularInterfaceType.printOne();
+        objectOfRegularInterfaceType.printTwo();
+        objectOfRegularInterfaceType.printThree();
+
+
+        //implementation of f interfaces w lambdas instead of anonymous class
+        FunctionalInterface objectOfFunctionalInterfaceType2 = () ->System.out.println("Second impl of f interface");
+        objectOfFunctionalInterfaceType2.something();
+    }
+}
+so in the background the lambda  creates an object of an anonymous class and overrides the abstract method
+right?
+like objectOfRegularInterfaceType if it was a f interface instead of regular one
+Faraz — 10/05/2023 2:57 PM
+😩
+Abreham — 10/05/2023 3:23 PM
+we need the notes for today aj
+Monpura — 10/05/2023 3:25 PM
+@Ajmal Hakim Prof, can you please send the zip file for todays session.
+Ajmal Hakim — 10/07/2023 3:46 PM
+https://solstice-script-3d6.notion.site/Maps-1bf5028849344f46bbbe2fbfdde1679a?pvs=4
+Ajmal Hakim's Notion on Notion
+Maps
+In Java, a Map is an interface that represents a collection of key-value pairs. It allows you to store and retrieve data using a key as a reference. The Map interface is implemented by several classes in Java, such as HashMap, TreeMap, and LinkedHashMap.
+Maps
+Faraz — Yesterday at 10:11 AM
+if the class begun already, could someone shared a link, i am using one link that was shared on Oct 5.. nobody is there
+Ajmal Hakim — Yesterday at 10:17 AM
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3AUJtKwmtHapk9KR8n7Q30A3AY6y6_2DrIkfjUOLl2INM1%40thread.tacv2%2F1696860446990%3Fcontext%3D%7b%22Tid%22%3a%225de3d8fc-e655-40e8-aeed-233dee10926a%22%2c%22Oid%22%3a%22027275e1-6fd4-4f6f-8100-a5aa22421faf%22%7d%26anon%3Dtrue&type=meetup-join&deeplinkId=7af4734b-753a-491e-8327-944879e4cc73&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true
+Microsoft Teams
+Image
+Faraz — Yesterday at 10:23 AM
+yes i am in
+Ajmal Hakim — Yesterday at 1:01 PM
+List<String> usaPlace = places.stream()
+         .filter(new DemoClass("Java")::check)
+         .map(String::toUpperCase)
+         .sorted()
+         .toList();
+        System.out.println(places);
+Ajmal Hakim — Yesterday at 4:06 PM
+https://solstice-script-3d6.notion.site/Java-SE-8-c6d2895b76be4f4bbb85826d48443327?pvs=4
+Ajmal Hakim's Notion on Notion
+Java SE 8
+Java SE 8 is a major release of the Java Platform, Standard Edition, that introduced many new features and enhancements to the Java programming language and the Java Virtual Machine (JVM). Released in March 2014, Java SE 8 was a significant update that aimed to simplify Java development, improve performance, and support modern programming paradi...
+Java SE 8
+Ajmal Hakim — Today at 11:04 AM
+1. **Filtering (Intermediate Operation):**
+    - Filter the list of persons to include only males.
+2. **Mapping (Intermediate Operation):**
+    - Map the list of persons to their names.
+3. **Sorting (Intermediate Operation):**
+    - Sort the list of persons by their income in descending order.
+Expand
+challenges.txt
+3 KB
+﻿
+1. **Filtering (Intermediate Operation):**
+    - Filter the list of persons to include only males.
+2. **Mapping (Intermediate Operation):**
+    - Map the list of persons to their names.
+3. **Sorting (Intermediate Operation):**
+    - Sort the list of persons by their income in descending order.
+4. **Distinct (Intermediate Operation):**
+    - Find the distinct genders in the list of persons.
+5. **Limit (Intermediate Operation):**
+    - Limit the list of persons to the first 3.
+6. **Skip (Intermediate Operation):**
+    - Skip the first 2 persons in the list.
+7. **Peek (Intermediate Operation):**
+    - Use peek to print the names of all persons in the list.
+8. **FlatMap (Intermediate Operation):**
+    - Map each person to a stream of characters representing their names.
+9. **Concatenating Streams (Intermediate Operation):**
+    - Create a new stream by concatenating two lists of persons.
+10. **AnyMatch (Terminal Operation):**
+- Check if any person's income is greater than 8000.0.
+1. **AllMatch (Terminal Operation):**
+- Check if all persons are male.
+1. **NoneMatch (Terminal Operation):**
+- Check if none of the persons have zero income.
+1. **Count (Terminal Operation):**
+- Count the number of persons.
+1. **FindFirst (Terminal Operation):**
+- Find the first person in the list.
+1. **FindAny (Terminal Operation):**
+- Find any person in the list.
+
+16 **Max (Terminal Operation):**
+
+- Find the person with the highest income.
+
+17 **Min (Terminal Operation):**
+
+- Find the person with the lowest income.
+
+18 **GroupingBy (Collector):**
+
+- Group the persons by gender.
+1. **PartitioningBy (Collector):**
+- Partition the persons into male and female.
+1. **SummarizingDouble (Collector):**
+- Calculate the sum, average, max, and min of incomes.
+1. **Joining (Collector):**
+- Join the names of all persons into a single string.
+1. **Reducing (Collector):**
+- Calculate the total income of all persons.
+1. **CollectingAndThen (Collector):**
+- Find the person with the highest income using CollectingAndThen.
+1. **ToMap (Collector):**
+- Create a map of persons where the key is the ID and the value is the person.
+1. **ToSet (Collector):**
+- Convert the list of persons to a set.
+1. **Parallel Stream (Intermediate Operation):**
+- Use parallel stream to process the list of persons.
+1. **Iterating (Intermediate Operation):**
+- Use iterate to create a stream of 10 integers starting from 1.
+1. **Unordered (Intermediate Operation):**
+- Use unordered to create an unordered stream of the list of persons.
+1. **Limiting and Skipping (Intermediate Operation):**
+- Use limit and skip to process only the second and third persons.
+1. **Custom Collector (Terminal Operation):**
+- Create a custom collector to concatenate the names of all persons.
