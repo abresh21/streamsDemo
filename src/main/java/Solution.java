@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(malesOnly(Person.persons()));
+        System.out.println(malesOnly());
         names(Person.persons()).forEach(System.out::println);
         sortedByIncomeDes().forEach(System.out::println);
         distinctGenders().forEach(System.out::println);
@@ -19,18 +19,28 @@ public class Solution {
             Person p = personWithHighestIncome().get();
             System.out.println("Person with high income is --- " + p);
         }
+        malePersons().forEach(System.out::println);
 
 
     }
 
     //challenge 1
-    static List<String> malesOnly(List<Person> people){
-        people = Person.persons();
+    static List<String> malesOnly(){
+        List<Person> people = Person.persons();
         List<String> males = people.stream()
                 .filter(Person::isMale)
                 .map(Person::getName)
                 .toList();
         return males;
+    }
+
+    static List<Person> malePersons(){
+        List<Person> people = Person.persons()
+                .stream()
+                .filter(Person::isMale)
+                .toList();
+        return people;
+
     }
 
     //challenge 2
